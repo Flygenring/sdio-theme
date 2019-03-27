@@ -1,7 +1,7 @@
 /// A full list of properties and examples of their values
-// Author:
-// URL: 
-// Modified: 2018-10-31
+// Author: Jacob
+// URL: https://github.com/Flygenring/sdio-theme
+// Modified: 2019-03-27
 // Documentation of variables can be found in the source: https://sourceforge.net/p/snappy-driver-installer-origin/code/HEAD/
 THEME_NAME = "JSN"
 
