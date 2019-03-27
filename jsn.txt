@@ -11,14 +11,14 @@ FONT_SIZE = 12
 /// Checkboxes on left panel
 CHKBOX_TEXT_COLOR			= 0x000000
 CHKBOX_TEXT_COLOR_H			= 0xEF7900
-CHKBOX_SIZE					= 19
+CHKBOX_SIZE					= 18
 BUTTON_BITMAP_CHECKED		= "jsn\checkbox_checked.webp"
 BUTTON_BITMAP_CHECKED_H		= "jsn\checkbox_checked_hover.webp"
 BUTTON_BITMAP_UNCHECKED		= "jsn\checkbox_unchecked.webp"
 BUTTON_BITMAP_UNCHECKED_H	= "jsn\checkbox_unchecked_hover.webp"
 
 /// Driver list item icons
-ITEM_CHECKBOX_SIZE			= 27
+ITEM_CHECKBOX_SIZE			= 25
 // ITEM_CHECKBOX_OFS_X		= 0
 // ITEM_CHECKBOX_OFS_Y		= 0
 ITEM_EXPAND_UP				= "jsn\expand_up.webp"
