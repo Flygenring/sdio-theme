@@ -91,8 +91,8 @@ PANEL11_BITMAP_FILENAME_H	= "" // Button "select none" hover
 MAINWND_TEXT_COLOR       = 0x000000
 MAINWND_WX               = 1024
 MAINWND_WY               = 729
-MAINWND_MINX             = 838
-MAINWND_MINY             = 289
+MAINWND_MINX             = 900
+MAINWND_MINY             = 520
 MAINWND_INSIDE_COLOR     = 0xEF7900
 MAINWND_INSIDE_COLOR     = 0xE6E6E6
 MAINWND_BITMAP_FILENAME  = MAINWND_BITMAP_FILENAME
@@ -132,21 +132,18 @@ PANEL3_OFSX              = 0
 PANEL3_OFSY              = 0
 PANEL3_WX                = 195
 PANEL3_WY                = 22
-PANEL3_INSIDE_COLOR      = 0xE6E6E6
+PANEL3_INSIDE_COLOR      = 0xFF987654
 
 // Panel, actions
-PANEL4_OFSY              = 140 // When showing revision
 PANEL4_OFSY              = 120
 PANEL4_OFSX              = 4
 PANEL4_INSIDE_COLOR      = 0xFF000000
 
 // Panel, filters (found)
-PANEL5_OFSY              = 245 // When showing revision
 PANEL5_OFSY              = 225
 PANEL5_OFSX              = 4
 
 // Panel, filters (not found)
-PANEL6_OFSY              = 405 // When showing revision
 PANEL6_OFSY              = 385
 PANEL6_OFSX              = 4
 
@@ -154,12 +151,11 @@ PANEL6_OFSX              = 4
 PANEL7_OFSY              = 617
 
 // Panel, revision
-PANEL8_OFSX              = 3
-PANEL8_OFSY              = 110
-PANEL8_OFSX              = -1 // Hide revision for now
-PANEL8_OFSY              = -1
+PANEL8_OFSX              = 97
+PANEL8_OFSY              = 0
 PANEL8_WX                = 195
 PANEL8_WY                = 2200
+PANEL8_INSIDE_COLOR      = 0x987654
 PANEL8_INSIDE_COLOR      = 0xE6E6E6
 PANEL8_OUTLINE_COLOR     = 0xE6E6E6
 PANEL8_OUTLINE_WIDTH     = 6
@@ -211,10 +207,10 @@ PANEL13_BITMAP_FILENAME  = "RES_211" // Application logo resource
 // Buttons on left panel
 BUTTON_INSIDE_COLOR      = 0xFF000000
 BUTTON_INSIDE_COLOR_H    = 0xFFCC99
-BUTTON_OUTLINE_WIDTH     = 0
+BUTTON_OUTLINE_WIDTH     = 1
 BUTTON_OUTLINE_WIDTH_H   = 1
 BUTTON_OUTLINE_ROUND     = 3
-BUTTON_OUTLINE_COLOR     = 0xEF7900
+BUTTON_OUTLINE_COLOR     = 0xEAAF73
 BUTTON_OUTLINE_COLOR_H   = 0xEF7900
 
 // Driver list
