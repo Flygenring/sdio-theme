@@ -30,11 +30,13 @@ ITEM_BITMAP_CHECKED_H		= "jsn\checkbox_item_checked_hover.webp"
 ITEM_BITMAP_UNCHECKED		= "jsn\checkbox_item_unchecked.webp"
 ITEM_BITMAP_UNCHECKED_H		= "jsn\checkbox_item_unchecked_hover.webp"
 
-
-/// Image variables
-PANEL13_BITMAP_FILENAME		= "" // Application logo resource ("RES_211")
+/// Application images
 MAINWND_BITMAP_FILENAME		= "" // Main window background image ("jsn\background.webp")
+MAINWND_BITMAP_ANCHOR		= center
+MAINWND_BITMAP_FILL			= hstr_vstr
 DRVLIST_BITMAP_FILENAME		= "" // Driver list background ("jsn\semi.webp")
+DRVITEM_BITMAP_FILENAME		= "" // Driver list item background
+DRVITEM_BITMAP_FILENAME_H	= "" // Driver list item background hover
 PANEL_BITMAP_FILENAME		= "" // Default panel background ("jsn\semi.webp")
 PANEL2_BITMAP_FILENAME		= "" // Panel "install options"
 PANEL8_BITMAP_FILENAME		= "" // Panel "SDIO revision"
@@ -44,6 +46,7 @@ PANEL10_BITMAP_FILENAME		= "" // Button "select all"
 PANEL10_BITMAP_FILENAME_H	= "" // Button "select all" hover
 PANEL11_BITMAP_FILENAME		= "" // Button "select none"
 PANEL11_BITMAP_FILENAME_H	= "" // Button "select none" hover
+PANEL13_BITMAP_FILENAME		= "" // Application logo resource ("RES_211")
 
 
 // Main window
@@ -53,9 +56,6 @@ MAINWND_WY				= 729
 MAINWND_MINX			= 900
 MAINWND_MINY			= 520
 MAINWND_INSIDE_COLOR	= 0xE6E6E6
-MAINWND_BITMAP_FILENAME	= MAINWND_BITMAP_FILENAME
-MAINWND_BITMAP_ANCHOR	= center
-MAINWND_BITMAP_FILL		= hstr_vstr
 
 // Progress bar (active)
 PROGR_OUTLINE_ROUND		= 0
@@ -83,7 +83,6 @@ PANEL2_WX				= 430
 PANEL2_WY				= 28
 PANEL2_INSIDE_COLOR		= 0xFFFFFF
 PANEL2_OUTLINE_WIDTH	= 0
-PANEL2_BITMAP_FILENAME	= PANEL2_BITMAP_FILENAME
 
 // Panel, lang_theme
 PANEL3_OFSX				= 0
@@ -160,7 +159,6 @@ PANEL13_WY				= 0
 PANEL13_INSIDE_COLOR	= 0xFF000000
 PANEL13_OUTLINE_COLOR	= 0xFF000000
 PANEL13_OUTLINE_WIDTH	= 0
-PANEL13_BITMAP_FILENAME	= "RES_211" // Application logo resource
 
 // Buttons on left panel
 BUTTON_INSIDE_COLOR		= 0xFF000000
@@ -209,12 +207,6 @@ DRVITEM_INSIDE_COLOR_H	= 0xE5E5E5
 DRVITEM_OUTLINE_COLOR	= 0xCCCCCC
 DRVITEM_OUTLINE_COLOR_H	= 0xCCCCCC
 DRVITEM_OUTLINE_WIDTH	= -1
-// DRVITEM_BITMAP_FILENAME
-// DRVITEM_BITMAP_ANCHOR
-// DRVITEM_BITMAP_FILL
-// DRVITEM_BITMAP_FILENAME_H
-// DRVITEM_BITMAP_ANCHOR_H
-// DRVITEM_BITMAP_FILL_H
 // DRVITEM_TEXT1_COLOR
 // DRVITEM_TEXT2_COLOR
 
