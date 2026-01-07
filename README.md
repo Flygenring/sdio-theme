@@ -4,8 +4,14 @@ Trying to do a minimalistic, modern, and Windows-y theme that is informative whi
 ![Minimal window](screenshot.png?raw=true "The minimal window using JSN")  
 A full screenshot is found [below](#screenshots)
 
-## Variables
-Documentation of variables can be found in the source: https://sourceforge.net/p/snappy-driver-installer-origin/code/HEAD/tree/trunk/source/themelist.h
+## Installation
+Installation is basically just putting a text file and a folder of graphics in the SDIO Themes folder:
+1. Download the latest [`jsn.zip`](https://github.com/Flygenring/sdio-theme/releases/latest/download/jsn.zip)
+2. Unpack the content to your SDIO Themes folder (e.g. `\tools\SDI\themes`)
+3. Open SDIO and choose `JSN` from the theme picker
+
+## Screenshots
+![Full window](screenshot-full.png?raw=true "The full window using JSN")
 
 ## Theming reference
 
@@ -92,8 +98,3 @@ Driver list items are distinguished by their abbreviation codes
 | NM   | Special | NOT-FOUND,MISSING                     | Device require a driver but it wasn't found in driverpacks       |
 | NU   | Special | NOT-FOUND,INSTELLED_UNKNOWN           | Device is working properly but no driver is found in driverpacks |
 | NS   | Special | NOT-FOUND,INSTALLED_STANDARD          | Standard driver                                                  |
-
-
-## Screenshots
-
-![Full window](screenshot-full.png?raw=true "The full window using JSN")
