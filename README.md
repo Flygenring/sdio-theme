@@ -7,8 +7,12 @@ A full screenshot is found [below](#screenshots)
 ## Variables
 Documentation of variables can be found in the source: https://sourceforge.net/p/snappy-driver-installer-origin/code/HEAD/tree/trunk/source/themelist.h
 
+## Theming reference
 
-### Anchor variables
+### Constants
+Documentation of constants can be found in the source: https://sourceforge.net/p/snappy-driver-installer-origin/code/HEAD/tree/trunk/source/themelist.h
+
+#### Anchor constants
 The anchor values are based on four bits: CV, CH, AY, and AX  
 CCAA - Center vertical, Center horizontal, Anchor vertical, Anchor horizontal  
 VHYX - Y/vertical: 0 = top, 1 = bottom	X/horizontal: 0 = left, 1 = right
@@ -25,10 +29,11 @@ VHYX - Y/vertical: 0 = top, 1 = bottom	X/horizontal: 0 = left, 1 = right
 | `center_right`  |     9 | `1001` |
 | `center`        |    12 | `11**` |
 
-### Fill variables
-The fill values are based on five bits: RA, FV, FH, TV, and TH  
-RFFTT - Ratio, Fit vertical, Fit horizontal, Tile vertical, Tile horizontal  
-AVHVH - vertical: 0 = top, 1 = bottom	horizontal: 0 = left, 1 = right
+#### Fill constants
+The fill values are based on five bits: AR, FV, FH, TV, and TH  
+RA - Keep aspect ratio
+FFTT - Fit vertical, Fit horizontal, Tile vertical, Tile horizontal  
+VHVH - vertical: 0 = top, 1 = bottom	horizontal: 0 = left, 1 = right
 
 | Name          | Value |  Binary | Description                                                                                         |
 |---------------|------:|--------:|-----------------------------------------------------------------------------------------------------|
@@ -48,7 +53,7 @@ AVHVH - vertical: 0 = top, 1 = bottom	horizontal: 0 = left, 1 = right
 | *missing*     |    28 | `11100` | stretch to fill the entire area while keeping aspect ratio (hstra + vstra)                          |
 
 
-## Colors
+### Colors
 Colors are hex strings in the format `0xAABBGGRR` where `AA` is optional transparency triggered when `AA >= 0x7E`
 
 | Color       | Code       |
@@ -59,9 +64,8 @@ Colors are hex strings in the format `0xAABBGGRR` where `AA` is optional transpa
 | black       | `0x000000` |
 
 
-
-## Driver list items
-Driver list items are distinguished by their abbreviation codes:
+### Driver list items
+Driver list items are distinguished by their abbreviation codes
 
 | Code | Type    | Meaning                               | Message                                                          |
 |------|---------|---------------------------------------|------------------------------------------------------------------|
